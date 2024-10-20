@@ -176,7 +176,7 @@ const Header = () => {
           {/* video wrapper */}
           <div className="video-wrapper">
             <video autoPlay muted loop>
-              <source src="../akaru/src/assets/city_timelapse.mp4" type="video/mp4" />
+              <source src="/assets/city_timelapse.mp4" type="video/mp4" />
             </video>
           </div>
 
