@@ -91,7 +91,8 @@ const Header = () => {
           ease:"power4.out",
           opacity: 1 
         });
-      } 
+      }
+
       else {
         menuToggle?.classList.remove('opened');
         menuToggle?.classList.add('closed');
@@ -126,7 +127,7 @@ const Header = () => {
       
       {/* logo */}
       <div className="menu-logo">
-        <Link className="" to="/">DAN MARTIN</Link>
+        <Link className="" to="/">AKARU</Link>
       </div>
 
       {/* menu toggle button  */}
@@ -176,7 +177,7 @@ const Header = () => {
           {/* video wrapper */}
           <div className="video-wrapper">
             <video autoPlay muted loop>
-              <source src="/assets/city_timelapse.mp4" type="video/mp4" />
+              <source src="/AKARU/assets/city_timelapse.mp4" type="video/mp4" />
             </video>
           </div>
 
